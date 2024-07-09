@@ -22,8 +22,8 @@ def main(links):
 
 def escribir_excel(datos_productos):
     df = pd.DataFrame(datos_productos)
-    df.to_excel('productos_ps4.xlsx', index=False)
-    print("Archivo 'productos_async.xlsx' creado exitosamente.")
+    df.to_excel('productos.xlsx', index=False)
+
     
 if __name__ == '__main__':
     
@@ -35,7 +35,8 @@ if __name__ == '__main__':
     for link in links:
         print(link)
     main(links)
-
+    print("Listo.")
+    
     #datos_async = asyncio.run(async_main(links))
     #escribir_excel(datos_async)
 
