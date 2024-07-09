@@ -8,9 +8,9 @@ Asegúrate de tener instalados los siguientes paquetes antes de ejecutar el scri
 
 - [Chromium para Playwright](https://playwright.dev/python/docs/browsers#install-browsers).
 - [Playwright](https://playwright.dev/python/) para buscar en el sitio
-- [Beautifulsoup4] Para obtener el código fuente del sitio
-- [unidecode] Para formatear bien los strings
-- [pandas] Para guardar en excel
+- [Beautifulsoup4](https://pypi.org/project/beautifulsoup4/) Para obtener el código fuente del sitio
+- [unidecode](https://pypi.org/project/Unidecode/) Para formatear bien los strings
+- [pandas](https://pypi.org/project/pandas/) Para guardar en excel
 
 ## Paso a Paso
 
