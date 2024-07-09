@@ -29,7 +29,7 @@ if __name__ == '__main__':
     
     max_dias_publicacion = 7
     consulta = 'ps4'
-    pasos_scroll = 200 # valores altos más productos
+    pasos_scroll = 100 # valores altos más productos
 
     links = enlaces(max_dias_publicacion, consulta, pasos_scroll)
     for link in links:
