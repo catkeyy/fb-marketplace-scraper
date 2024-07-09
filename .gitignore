@@ -1,0 +1,6 @@
+/venv/
+/__pycache__/
+.prettierrc
+intentos.txt
+productos_ps4.xlsx
+salida.txt
